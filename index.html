@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<body>
+<h3>Phone Number & Card Validation</h3>
+
+Enter your Phone Number :
+<input type ="text" name = "name" id="phoneNumber" onkeydown="checkPhoneNumber(event) "/><div style="color:red;" id="phoneNumber_Warning"></div>
+</br>
+<label>
+Enter your Card Number :
+<input type ="text" name = "username" id="cardNumber" onkeydown="checkCardNumber(event) "/><div style="color:red;" id="cardNumber_Warning"></div>
+</label>
+</br>
+<input type="button" value ="Validate" id="validate" onclick ="validate()"/>
+</br>
+<div style="color:red;" id="success"></div>
+<script src="./script.js"></script>
+</body>
+</html>
